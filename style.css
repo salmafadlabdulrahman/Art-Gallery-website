@@ -1,0 +1,506 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0 auto;
+}
+
+.hero-img-container {
+  text-align: center;
+}
+
+.header-img {
+  max-width: 100%;
+}
+
+.hero-content,
+.tour {
+  padding: 1.5em;
+}
+
+h1 {
+  font-size: 3.7em;
+  font-weight: 900;
+  text-transform: uppercase;
+  line-height: 1;
+  margin-top: 0.2em;
+}
+
+h1,
+h2,
+h3,
+.location-btn,
+.day-description,
+.tour-content-title,
+.footer-title {
+  font-family: "Big Shoulders Display", cursive;
+}
+
+.hero-paragraph,
+.plan,
+.tour-content-body,
+.footer-body,
+.challenge,
+.footer-body,
+.address,
+.place,
+.coded-by {
+  font-family: "Outfit", sans-serif;
+}
+
+button,
+.right-arrow {
+  cursor: pointer;
+}
+
+.hero-paragraph {
+  margin-top: 1.5em;
+  line-height: 1.7;
+  color: hsl(0, 0%, 27%);
+}
+
+span {
+  font-weight: 600;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+.location-btn-container {
+  margin-top: 3em;
+  display: flex;
+  align-items: center;
+}
+
+.location-btn {
+  border: none;
+  text-transform: uppercase;
+  background-color: hsl(0, 0%, 8%);
+  color: white;
+  padding: 0em 2.1em 0em 1em;
+  height: 60px;
+  letter-spacing: 3px;
+}
+
+.tour {
+  margin-top: 5em;
+}
+
+.day-description {
+  text-align: center;
+  background-color: #f2f2f2;
+  padding: 2em 2em 1em 2em;
+}
+
+h2 {
+  text-transform: uppercase;
+  font-size: 3em;
+  font-weight: 900;
+}
+
+.plan {
+  margin-top: 1em;
+  margin-bottom: 2em;
+  padding-left: 1em;
+  line-height: 1.8;
+  text-align: left;
+}
+
+.day-at-the-gallery {
+  display: flex;
+  flex-direction: column;
+}
+
+.gallery-img,
+.paintings-2,
+.paintings-3,
+.tour-content {
+  margin-top: 1.3em;
+}
+
+.paintings-2,
+.paintings-3 {
+  width: 100%;
+}
+
+.img-container {
+  margin-bottom: 1.7em;
+  display: flex;
+  flex-direction: column;
+}
+
+.tour-content {
+  background-color: #404040;
+  text-align: left;
+  padding: 2.2em;
+}
+
+.tour-content-title {
+  font-size: 3em;
+}
+
+.tour-content-title,
+.tour-content-body {
+  color: hsl(0, 0%, 100%);
+}
+
+.tour-content-body {
+  line-height: 2;
+  font-size: 17px;
+  margin-top: 1.7em;
+}
+
+.main-footer {
+  color: white;
+  background-color: hsl(0, 0%, 8%);
+  padding: 1.5em;
+}
+
+.footer-title {
+  margin-top: 1em;
+  font-size: 2.2em;
+  text-transform: uppercase;
+  line-height: 1;
+}
+
+.footer-body {
+  margin-top: 1.5em;
+  font-size: 1.1em;
+  font-weight: 100;
+  padding-right: 2em;
+}
+
+.contact {
+  margin-top: 2em;
+  list-style: none;
+  display: flex;
+  gap: 10px;
+  padding-bottom: 1em;
+}
+
+i {
+  color: black;
+  font-size: 1.3em;
+}
+
+li {
+  background-color: white;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.coded-by {
+  margin-top: 1em;
+  border-top: 1px solid #bfbfbf;
+}
+
+.challenge {
+  margin: 1em 1em;
+}
+
+.frontend {
+  color: white;
+}
+
+/*locations*/
+.location-map {
+  position: relative;
+}
+
+.map {
+  max-width: 500px;
+}
+
+.map-image {
+  width: 100%;
+}
+
+.home-btn-container {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  top: -0.1em;
+}
+
+.home-btn {
+  border: none;
+  text-transform: uppercase;
+  background-color: hsl(0, 0%, 8%);
+  color: white;
+  padding: 0em 2.1em 0em 1em;
+  height: 60px;
+  letter-spacing: 3px;
+}
+
+.right-arrow {
+  height: 60px;
+  background-color: hsl(24, 56%, 63%);
+  padding: 1em;
+}
+
+.location-container {
+  background-color: black;
+  color: white;
+}
+
+.location-details {
+  padding: 1em;
+}
+
+h2,
+h3 {
+  text-transform: uppercase;
+}
+
+h2 {
+  margin-top: 0.5em;
+  font-size: 2.5em;
+}
+
+.street {
+  margin-top: 0.5em;
+  font-weight: 900;
+  font-size: 1.5em;
+}
+
+.address,
+.place {
+  font-weight: 100;
+  margin-top: 1em;
+}
+
+.place {
+  padding-bottom: 2em;
+}
+
+footer {
+  color: balck;
+  background-color: hsl(24, 56%, 63%);
+  padding: 1.5em;
+}
+
+.footer-title {
+  color: white;
+  margin-top: 1em;
+  font-size: 2em;
+}
+
+.footer-body {
+  margin-top: 1em;
+  font-size: 1.1em;
+  font-weight: 100;
+  padding-right: 2.5em;
+}
+
+.contact {
+  margin-top: 2em;
+  list-style: none;
+  display: flex;
+  gap: 10px;
+  padding-bottom: 1em;
+}
+
+i {
+  font-size: 1.3em;
+}
+
+li {
+  background-color: white;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.coded-by {
+  margin-top: 2em;
+  border-top: 1px solid #bfbfbf;
+}
+
+.challenge {
+  margin: 1em 1em;
+}
+
+.frontend {
+  color: white;
+  text-decoration: underline;
+}
+
+.location-contact,
+.street {
+  color: hsl(24, 56%, 63%);
+}
+
+/*Tablet media query*/
+@media (min-width: 650px) {
+  .first-part {
+    display: flex;
+    position: relative;
+  }
+  .hero-content {
+    position: absolute;
+    left: 17em;
+    padding-top: 5em;
+    padding-left: 5em;
+  }
+  .text-wrapper {
+    padding-right: 3.7em;
+  }
+  .hero-paragraph {
+    font-size: 1.1em;
+  }
+  .day-at-the-gallery {
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 20px;
+    justify-content: center;
+    justify-items: stretch;
+    align-items: stretch;
+  }
+  .paintings-1 {
+    width: 100%;
+  }
+  .day-description {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    padding: 1.5em;
+  }
+  .plan {
+    padding: 0;
+    margin: 0;
+  }
+  .img-container {
+    display: grid;
+    margin-top: 2em;
+    gap: 20px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas:
+      "img1 img2"
+      "img1 tour";
+  }
+  .wooden-chair-img {
+    grid-area: img1;
+  }
+  .people-in-musuem {
+    grid-area: img2;
+  }
+  .tour-content {
+    grid-area: tour;
+  }
+  .paintings-3 {
+    margin-top: 0;
+  }
+
+  .gallery-img,
+  .paintings-1,
+  .paintings-3,
+  .paintings-2 {
+    height: 100%;
+  }
+
+  .tour-content,
+  .people-in-musuem,
+  .paintings-2,
+  .gallery-img {
+    margin: 0;
+  }
+
+  .paintings-2,
+  .people-in-musuem {
+    padding: 0;
+  }
+
+  .footer-content {
+    display: flex;
+    justify-content: space-around;
+    gap: 50px;
+  }
+  .footer-body {
+    width: 300px;
+  }
+
+  .location-details {
+    padding: 2em;
+    display: flex;
+    gap: 10em;
+  }
+}
+
+/*Desktop media query*/
+@media (min-width: 900px) {
+  .first-part {
+    display: flex;
+  }
+  .header-img {
+    height: 100%;
+  }
+  .color-container {
+    background-color: black;
+    width: 30%;
+  }
+  .hero-content {
+    margin: 0 auto;
+    width: 100%;
+    padding: 0;
+    left: 0;
+  }
+  .text-wrapper {
+    width: 79%;
+    margin: 0 auto;
+    margin-top: 2em;
+    padding: 0;
+    padding: 5em;
+    justify-content: center;
+    display: flex;
+    gap: 10em;
+    align-items: center;
+  }
+  .header {
+    width: 100%;
+    background-color: black;
+    color: white;
+    mix-blend-mode: difference;
+  }
+  .tour-content-hero {
+    margin: 0 auto;
+    width: 90vw;
+  }
+  h2 {
+    font-size: 4em;
+  }
+  .plan {
+    padding: 0;
+    font-size: 1.4em;
+    margin-top: 1em;
+  }
+  .goal {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2em;
+  }
+  .tour-content-title {
+    padding: 0;
+    margin: 0;
+    font-size: 4em;
+  }
+  .tour-content-body {
+    padding-right: 5em;
+    font-size: 1.6em;
+  }
+}
