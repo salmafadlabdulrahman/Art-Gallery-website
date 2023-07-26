@@ -5,31 +5,25 @@ This is a solution to the Art Gallery Website challenge on Frontend Mentor
 ## Table of contents
 
 - [Overview](#overview)
-  - [The challenge](#the-challenge)
   - [Screenshot](#screenshot)
   - [Links](#links)
-- [My process](#my-process)
   - [Built with](#built-with)
 - [Author](#author)
 
 
 ## Overview
-
-### The challenge
-
-Users should be able to:
-
-- View the optimal layout for the app depending on their device's screen size
+This is a challenge from frontend mentor, You should build an art gallery website,
+this challenge is the perfect place to test your flexbox and grid skills. and your design should be responsive for
+different types of screens.
 
 ### Screenshot
+![screencapture-kaleidoscopic-valkyrie-b8655a-netlify-app-2023-07-26-20_49_01](https://github.com/salmafadlabdulrahman/Art-Gallery-website/assets/88597694/8ad15a13-2ae2-4883-9956-b9d5b4c294ac)
 
 
 ### Links
 
-- Solution URL: ()
-- Live Site URL: ()
-
-## My process
+- Solution URL: (https://github.com/salmafadlabdulrahman/Art-Gallery-website)
+- Live Site URL: (https://kaleidoscopic-valkyrie-b8655a.netlify.app/)
 
 ### Built with
 
